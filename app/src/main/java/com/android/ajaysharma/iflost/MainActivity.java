@@ -31,8 +31,6 @@ public class MainActivity extends AppCompatActivity {
         if(sps)
         {
             Intent i=new Intent(this,first_activity.class);
-            //i.putExtra("p1",un);
-            //i.putExtra("p2",up);
             startActivity(i);
             finish();
         }
