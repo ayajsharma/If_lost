@@ -36,7 +36,7 @@ public class MyBR extends BroadcastReceiver {
                     context.startActivity(intent1);
                 } catch (Exception e) {
                     Toast.makeText(context, "Something went wrong", Toast.LENGTH_SHORT).show();
-                    Log.e("Erroorrrrrrrrrrrrr", "hello");
+                    Log.e("There is some error in MyBr class........ ", "hello");
                     e.printStackTrace();
                 }
             }
